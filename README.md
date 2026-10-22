@@ -72,8 +72,3 @@ Para generar la version de produccion del cliente: `npm run build`.
 | DELETE | `/api/prompts/:id` | Propietario | Elimina un prompt propio |
 | POST | `/api/prompts/:id/vote` | Sesion | Alterna el voto en un prompt publico |
 
-## Capturas para el informe
-
-El informe `Informe_Laboratorio_PromptVault.docx` ya incluye cuatro capturas reales del cliente: portada, formulario de inicio de sesion, registro y seccion de funcionamiento. En la captura principal la biblioteca esta vacia porque la API y MongoDB no estaban conectados; la tarjeta ilustrativa de la portada no representa un registro persistido.
-
-Completa las capturas 05-08 del informe despues de conectar MongoDB y realizar la demostracion con dos cuentas: aislamiento de prompts privados, historial de versiones, votos y persistencia en Compass/Atlas. Guarda las imagenes en `evidencias/`. No incluyas contrasenas, cadenas de conexion, tokens ni datos personales.
